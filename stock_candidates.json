@@ -1,0 +1,197 @@
+{
+  "categories": {
+    "ai": {
+      "name": "AI概念股",
+      "stocks": [
+        {
+          "id": "3661",
+          "name": "世芯-KY",
+          "sector": "ASIC",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "高階ASIC設計需求具代表性",
+          "tags": ["AI", "ASIC", "先進製程"]
+        },
+        {
+          "id": "3443",
+          "name": "創意",
+          "sector": "ASIC",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "先進製程ASIC開案動能持續",
+          "tags": ["AI", "ASIC", "先進製程"]
+        }
+      ]
+    },
+    "ip": {
+      "name": "矽智財",
+      "stocks": [
+        {
+          "id": "6643",
+          "name": "M31",
+          "sector": "IP",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "高速傳輸與先進製程IP需求受惠",
+          "tags": ["IP", "高速傳輸", "先進製程"]
+        },
+        {
+          "id": "3529",
+          "name": "力旺",
+          "sector": "IP",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "eNVM與高階IP技術具長期競爭力",
+          "tags": ["IP", "eNVM", "高階製程"]
+        }
+      ]
+    },
+    "server": {
+      "name": "AI伺服器",
+      "stocks": [
+        {
+          "id": "2382",
+          "name": "廣達",
+          "sector": "伺服器",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "AI伺服器組裝與出貨動能具指標性",
+          "tags": ["AI", "伺服器", "ODM"]
+        },
+        {
+          "id": "3231",
+          "name": "緯創",
+          "sector": "伺服器",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "AI伺服器出貨成長動能強勁",
+          "tags": ["AI", "伺服器", "ODM"]
+        },
+        {
+          "id": "6669",
+          "name": "緯穎",
+          "sector": "伺服器",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "雲端與AI伺服器需求同步擴張",
+          "tags": ["AI", "伺服器", "雲端"]
+        }
+      ]
+    },
+    "cooling": {
+      "name": "散熱",
+      "stocks": [
+        {
+          "id": "3324",
+          "name": "雙鴻",
+          "sector": "散熱",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "高功耗散熱升級趨勢受惠明確",
+          "tags": ["散熱", "AI", "高功耗"]
+        },
+        {
+          "id": "3017",
+          "name": "奇鋐",
+          "sector": "散熱",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "液冷散熱滲透率提升帶動成長",
+          "tags": ["散熱", "液冷", "AI"]
+        }
+      ]
+    },
+    "cpo": {
+      "name": "CPO/光通訊",
+      "stocks": [
+        {
+          "id": "3363",
+          "name": "上詮",
+          "sector": "光通訊",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "CPO與高速光通訊題材具想像空間",
+          "tags": ["CPO", "光通訊", "高速傳輸"]
+        },
+        {
+          "id": "6442",
+          "name": "光聖",
+          "sector": "光通訊",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "光通訊元件需求隨高速傳輸提升",
+          "tags": ["光通訊", "高速傳輸"]
+        }
+      ]
+    },
+    "steel": {
+      "name": "鋼鐵",
+      "stocks": [
+        {
+          "id": "2002",
+          "name": "中鋼",
+          "sector": "鋼鐵",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "鋼價循環回升帶動基本面改善",
+          "tags": ["鋼鐵", "原物料", "內需"]
+        },
+        {
+          "id": "2027",
+          "name": "大成鋼",
+          "sector": "鋼鐵",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "美國鋼鐵需求與報價具支撐",
+          "tags": ["鋼鐵", "美國", "報價"]
+        }
+      ]
+    },
+    "plastic": {
+      "name": "塑化",
+      "stocks": [
+        {
+          "id": "1301",
+          "name": "台塑",
+          "sector": "塑化",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "塑化產品報價回穩帶動獲利改善",
+          "tags": ["塑化", "原油", "景氣循環"]
+        },
+        {
+          "id": "1326",
+          "name": "台化",
+          "sector": "塑化",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "化工產品景氣循環具反彈空間",
+          "tags": ["塑化", "化工", "景氣循環"]
+        }
+      ]
+    },
+    "defensive": {
+      "name": "防禦型",
+      "stocks": [
+        {
+          "id": "2412",
+          "name": "中華電",
+          "sector": "電信",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "高股息與穩定現金流具防禦價值",
+          "tags": ["防禦", "高股息", "電信"]
+        },
+        {
+          "id": "2886",
+          "name": "兆豐金",
+          "sector": "金融",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "金融股高股息特性適合震盪環境",
+          "tags": ["防禦", "金融", "高股息"]
+        }
+      ]
+    }
+  }
+}
