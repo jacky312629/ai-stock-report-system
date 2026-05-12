@@ -1,0 +1,83 @@
+{
+  "impact_rules": [
+    {
+      "name": "AI科技利多",
+      "keywords": [
+        "AI",
+        "NVIDIA",
+        "chip",
+        "semiconductor",
+        "server",
+        "ASIC"
+      ],
+      "impact": "利多",
+      "boost_categories": [
+        "ai",
+        "ip",
+        "server",
+        "cooling",
+        "cpo"
+      ],
+      "score": 2
+    },
+
+    {
+      "name": "利率與通膨壓力",
+      "keywords": [
+        "inflation",
+        "rate",
+        "yield",
+        "hawkish",
+        "fed"
+      ],
+      "impact": "利空",
+      "boost_categories": [
+        "defensive"
+      ],
+      "penalty_categories": [
+        "ai",
+        "ip",
+        "server",
+        "cooling",
+        "cpo"
+      ],
+      "score": 2
+    },
+
+    {
+      "name": "原物料利多",
+      "keywords": [
+        "oil",
+        "commodity",
+        "steel",
+        "copper"
+      ],
+      "impact": "利多",
+      "boost_categories": [
+        "steel",
+        "plastic"
+      ],
+      "score": 2
+    },
+
+    {
+      "name": "市場避險",
+      "keywords": [
+        "war",
+        "tariff",
+        "recession",
+        "selloff"
+      ],
+      "impact": "利空",
+      "boost_categories": [
+        "defensive"
+      ],
+      "penalty_categories": [
+        "ai",
+        "ip",
+        "server"
+      ],
+      "score": 2
+    }
+  ]
+}

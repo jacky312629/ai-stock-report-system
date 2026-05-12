@@ -192,6 +192,112 @@
           "tags": ["防禦", "金融", "高股息"]
         }
       ]
+    },
+    "tpu": {
+      "name": "TPU/ASIC供應鏈",
+      "stocks": [
+        {
+          "id": "3661",
+          "name": "世芯-KY",
+          "sector": "ASIC",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "TPU與客製化ASIC需求受惠",
+          "tags": ["TPU", "ASIC", "AI"]
+        },
+        {
+          "id": "3443",
+          "name": "創意",
+          "sector": "ASIC",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "AI ASIC設計服務需求延續",
+          "tags": ["TPU", "ASIC", "AI"]
+        }
+      ]
+    },
+    "apple_supply": {
+      "name": "Apple供應鏈",
+      "stocks": [
+        {
+          "id": "2317",
+          "name": "鴻海",
+          "sector": "代工",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "Apple與AI伺服器供應鏈具指標性",
+          "tags": ["Apple", "供應鏈", "鴻海"]
+        }
+      ]
+    },
+    "optical": {
+      "name": "光學股",
+      "stocks": [
+        {
+          "id": "3008",
+          "name": "大立光",
+          "sector": "光學",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "高階手機鏡頭需求具指標性",
+          "tags": ["Apple", "光學", "鏡頭"]
+        },
+        {
+          "id": "3406",
+          "name": "玉晶光",
+          "sector": "光學",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "手機鏡頭供應鏈具反彈題材",
+          "tags": ["Apple", "光學", "鏡頭"]
+        }
+      ]
+    },
+    "satellite": {
+      "name": "低軌衛星",
+      "stocks": [
+        {
+          "id": "3491",
+          "name": "昇達科",
+          "sector": "低軌衛星",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "低軌衛星通訊題材具延伸性",
+          "tags": ["低軌衛星", "通訊", "SpaceX"]
+        },
+        {
+          "id": "6285",
+          "name": "啟碁",
+          "sector": "通訊",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "通訊設備與低軌衛星題材受惠",
+          "tags": ["低軌衛星", "通訊"]
+        }
+      ]
+    },
+    "robot": {
+      "name": "機器人概念股",
+      "stocks": [
+        {
+          "id": "2359",
+          "name": "所羅門",
+          "sector": "機器人",
+          "priority": 1,
+          "enabled": true,
+          "reason_tag": "機器視覺與機器人題材具市場想像",
+          "tags": ["機器人", "AI", "自動化"]
+        },
+        {
+          "id": "2464",
+          "name": "盟立",
+          "sector": "自動化",
+          "priority": 2,
+          "enabled": true,
+          "reason_tag": "自動化設備需求與機器人題材連動",
+          "tags": ["機器人", "自動化"]
+        }
+      ]
     }
   }
 }

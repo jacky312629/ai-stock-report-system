@@ -1,0 +1,64 @@
+{
+  "email": {
+    "to": "jacky312619@gmail.com",
+    "subject": "📊 每日美股盤前策略報告"
+  },
+  "news": {
+    "url": "https://www.cnbc.com/world/?region=world",
+    "max_count": 5
+  },
+  "symbols_map": {
+    "道瓊指數": ["^DJI"],
+    "NASDAQ": ["^IXIC"],
+    "費城半導體": ["^SOX"],
+    "台積電ADR": ["TSM"],
+    "美國10年期公債殖利率": ["^TNX"],
+    "美元指數": ["DX-Y.NYB"],
+    "VIX": ["^VIX"],
+    "原物料ETF": ["DBC"],
+    "CRB指數": ["^CRB", "^TRCCRB", "^CRBQ-TC", "DBC"]
+  },
+  "mega_cap_map": {
+    "NVDA": {
+        "name": "NVIDIA",
+        "boost_categories": ["ai", "server", "cooling", "cpo"],
+        "strong_threshold": 1.5,
+        "weak_threshold": -1.5,
+        "score": 3
+    },
+    "GOOGL": {
+        "name": "Alphabet",
+        "boost_categories": ["ai", "tpu"],
+        "strong_threshold": 1.0,
+        "weak_threshold": -1.0,
+        "score": 2
+    },
+    "AMZN": {
+        "name": "Amazon",
+        "boost_categories": ["server"],
+        "strong_threshold": 1.0,
+        "weak_threshold": -1.0,
+        "score": 2
+    },
+    "META": {
+        "name": "Meta",
+        "boost_categories": ["ai", "server", "cpo"],
+        "strong_threshold": 1.0,
+        "weak_threshold": -1.0,
+        "score": 2
+    },
+    "AAPL": {
+        "name": "Apple",
+        "boost_categories": ["apple_supply", "optical"],
+        "strong_threshold": 1.0,
+        "weak_threshold": -1.0,
+        "score": 2
+    },
+    "TSLA": {
+        "name": "Tesla",
+        "boost_categories": ["satellite", "robot"],
+        "strong_threshold": 1.5,
+        "weak_threshold": -1.5,
+        "score": 2
+    }
+}}
