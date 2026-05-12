@@ -15,13 +15,13 @@ AI 股票市場自動化分析系統
 - HTML 報表生成
 - JSON 規則化管理
 - cron 排程執行
-- log 錯誤紀錄
+- 基本 log 錯誤紀錄
 
 ---
 
 # System Preview
 
-![Report Preview](screenshots/report_preview.png)
+![Report Preview](screenshots/dashboard.png)
 
 ---
 
@@ -38,7 +38,7 @@ AI 股票市場自動化分析系統
 - Gmail 自動寄送
 - JSON 股票池管理
 - cron 排程執行
-- log 錯誤紀錄
+- 基本 log 錯誤紀錄
 
 ---
 
@@ -63,30 +63,6 @@ Archive Report
 ```
 
 ![n8n Workflow](screenshots/n8n_workflow.png)
-
----
-
-# System Workflow
-
-```text
-Market Data
-    ↓
-News Analysis
-    ↓
-Mega-cap Tech Analysis
-    ↓
-Sector Rotation
-    ↓
-Stock Scoring
-    ↓
-AI Market Strategy
-    ↓
-HTML Report
-    ↓
-Gmail Automation
-```
-
-![System Flow](screenshots/system_flow.png)
 
 ---
 
@@ -131,7 +107,6 @@ github_project/
 ├── stock_candidates.json
 ├── requirements.txt
 ├── screenshots/
-├── output/
 └── README.md
 ```
 
