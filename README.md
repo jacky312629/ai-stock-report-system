@@ -21,8 +21,7 @@ AI 股票市場自動化分析系統
 
 # System Preview
 
-![Report Preview](screenshots/report_preview.png)
-
+![Report Preview](screenshots/system_architecture.png)
 ---
 
 # Features
